@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>my caculator</title>
+  <link rel="stylesheet" type="text/css" href="caculator.css">
+</head>
+<body class="caculator" bgcolor= "#000000">
+<script type="text/javascript" src="caculator.js"></script>
+<div class="box">
+  <div class="edit">
+    <input type="text" id="d" readOnly="true" value="";>
+    
+  <div id = symbol>
+      </div>
+    
+  </div><br/>
+  <div class="keys">
+    <button>MC</button>&nbsp
+    <button>M+</button>&nbsp
+    <button>M-</button>&nbsp
+    <button>MR</button>
+  </div></br>
+  <div class="keys">
+    <button onclick="erase();">C</button>&nbsp
+    <button onclick="negative()">&plusmn</button>&nbsp
+    <button id="divide" onclick="symbol_button(this.id)">&divide</button>&nbsp
+    <button id="times" onclick="symbol_button(this.id)">&times</button>
+  </div></br>
+  <div class="keys">
+    <button onclick="display(7);">7</button>&nbsp
+    <button onclick="display(8);">8</button>&nbsp
+    <button onclick="display(9);" >9</button>&nbsp
+    <button id="minus" onclick="symbol_button(this.id)">-</button>
+</div></br>
+  <div class="keys">
+    <button onclick="display(4);">4</button>&nbsp
+    <button onclick="display(5);">5</button>&nbsp
+    <button onclick="display(6);">6</button>&nbsp
+    <button id="plus" onclick="symbol_button(this.id)">+</button>
+</div></br>
+  <div class="keys">
+    <button onclick="display(1);">1</button>&nbsp
+    <button onclick="display(2);">2</button>&nbsp
+    <button onclick="display(3);">3</button>&nbsp
+    <button class="equals" onclick="equal()">=</button>
+</div></br>
+  
+  
+  <div class="keys">
+    <button class="zero" onclick="display(0);">0</button>&nbsp
+    <button onclick="point();">.</button>
+    
+  </div>
+  </div>
+  </body>
+  </html>
+  
+  
+ 
